@@ -6,6 +6,10 @@ function App() {
   
   return (
     <div className="App">
+      <button className="autoButton"> AUTO </button>
+      <button className="fireButton"> FIRE </button>
+      <button className="lifeButton"> Life/Health </button>
+
       
     </div>
   );

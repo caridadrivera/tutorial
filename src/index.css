@@ -3,9 +3,21 @@ body {
   height: 100vh;
   background: url('./backgroundSF.jpg');
   background-position: center center;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.autoButton {
+  display: flex;
+  flex-direction: row;
+}
+
+.lifeButton .fireButton{
+  display: flex;
+  flex-direction: row;
 }
