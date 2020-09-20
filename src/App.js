@@ -1,18 +1,16 @@
 import React from 'react';
 import './App.css';
-import './backgroundSF.jpg';
+import AutoButton from './Components/autoBtn'
+import FireButton from './Components/fireBtn'
+import LifeButton from './Components/lifeBtn'
 
-function App() {
+export default function App() {
   
   return (
     <div className="App">
-      <button className="autoButton"> AUTO </button>
-      <button className="fireButton"> FIRE </button>
-      <button className="lifeButton"> Life/Health </button>
-
-      
+     <AutoButton />
+     <FireButton />
+     <LifeButton />
     </div>
   );
 }
-
-export default App;
