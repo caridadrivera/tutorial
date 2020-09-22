@@ -1,8 +1,9 @@
 import React from 'react';
 
-export default function lifeButton(){
+export default function lifeButton(props){
+
     return (
-        <button>
+        <button onClick={props.handleLifeClick}>
             LIFE / HEALTH
         </button>
     )

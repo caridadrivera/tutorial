@@ -6,15 +6,23 @@ import LifeButton from './Components/lifeBtn'
 
 export default function App() {
 
-  const handleClick = () =>{
+  const handleAutoClick = () =>{
+    console.log('im here')
+  }
+
+  const handleFireClick = () =>{
+    console.log('im here')
+  }
+
+  const handleLifeClick = () =>{
     console.log('im here')
   }
   
   return (
     <div className="App">
-     <AutoButton handleClick={handleClick}/>
-     <FireButton />
-     <LifeButton />
+     <AutoButton handleClick={handleAutoClick}/>
+     <FireButton handleFireClick={handleFireClick} />
+     <LifeButton handleLifeClick={handleLifeClick}/>
     </div>
   );
 }
