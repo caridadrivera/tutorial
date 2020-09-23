@@ -13,18 +13,16 @@ export default function App() {
  
   
   return (
-    
+    <Router>
       <div className="App">
-       <Router>
-          
-           <Route path="/" component={MainPage}/>
-           <Route exact path="/auto" component={MainAutoPage}/>
-          
-       </Router> 
-      
+        <Switch>
+        <Route path='/auto' component={MainAutoPage}/>
+        <Route path='/' component={MainPage}/>
         
+        </Switch>
+       
       </div>
-    
+   </Router> 
     
   );
 }
