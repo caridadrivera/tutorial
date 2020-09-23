@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { useHistory } from 'react-router-dom';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import AutoButton from './Components/autoBtn';
 import FireButton from './Components/fireBtn';
 import LifeButton from './Components/lifeBtn';
@@ -16,10 +16,13 @@ export default function App() {
     
       <div className="App">
        <Router>
-        
-        <Route path="/" component={MainPage}></Route>
-        <Route path='/auto' exact component={MainAutoPage}></Route> 
+          
+           <Route path="/" component={MainPage}/>
+           <Route exact path="/auto" component={MainAutoPage}/>
+          
        </Router> 
+      
+        
       </div>
     
     
