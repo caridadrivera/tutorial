@@ -5,7 +5,7 @@ export default function lifeButton(props){
 
     return (
         <Link to="/life">
-            <button onClick={props.handleLifeClick}>
+            <button className="lifeButton" onClick={props.handleLifeClick}>
                     LIFE / HEALTH
             </button>
         </Link>

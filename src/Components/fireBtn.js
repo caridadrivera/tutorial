@@ -5,7 +5,7 @@ export default function fireButton(props){
 
     return (
     <Link to="/fire">
-        <button onClick={props.handleFireClick}>
+        <button className="fireButton" onClick={props.handleFireClick}>
             Fire
         </button>
     </Link>

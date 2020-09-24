@@ -1,8 +1,11 @@
 body {
   margin: 0;
   height: 100vh;
-  background: url('./backgroundSF.jpg');
+  background-image: url('./backgroundSF.jpg');
+  background-size: 60rem;
+  background-repeat: no-repeat;
   background-position: center center;
+
 
 }
 
@@ -12,12 +15,12 @@ code {
 }
 
 
-.autoButton {
+
+.mainPageButtons {
   display: flex;
-  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
-.lifeButton .fireButton{
-  display: flex;
-  flex-direction: row;
-}
+
