@@ -7,7 +7,8 @@ import FireButton from './Components/fireBtn';
 import LifeButton from './Components/lifeBtn';
 import MainPage from './Components/mainPage';
 import MainAutoPage from './Components/mainAutoPage';
-
+import MainFirePage from './Components/mainFirePage';
+import MainLifePage from './Components/mainLifePage';
 
 export default function App() {
  
@@ -16,8 +17,11 @@ export default function App() {
     <Router>
       <div className="App">
         <Switch>
+        <Route path='/' exact component={MainPage}/>
         <Route path='/auto' component={MainAutoPage}/>
-        <Route path='/' component={MainPage}/>
+        <Route path='/fire' component={MainFirePage}/>
+        <Route path='/life' component={MainLifePage}/>
+
         
         </Switch>
        

@@ -24,8 +24,8 @@ const handleLifeClick = () =>{
     return (
         <main>
             <AutoButton handleClick={handleAutoClick}/>
-            <FireButton/>
-            <LifeButton/>
+            <FireButton handleClick={handleFireClick}/>
+            <LifeButton handleClick={handleLifeClick}/>
 
         </main>
      

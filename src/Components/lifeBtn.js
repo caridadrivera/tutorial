@@ -1,10 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function lifeButton(props){
 
     return (
-        <button onClick={props.handleLifeClick}>
-            LIFE / HEALTH
-        </button>
+        <Link to="/life">
+            <button onClick={props.handleLifeClick}>
+                    LIFE / HEALTH
+            </button>
+        </Link>
+        
     )
 }
