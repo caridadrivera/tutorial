@@ -2,10 +2,10 @@ body {
   margin: 0;
   height: 100vh;
   background-image: url('./backgroundSF.jpg');
-  background-size: 60rem;
+ 
   background-repeat: no-repeat;
-  background-position: center center;
-
+  
+  background-position: relative;
 
 }
 
@@ -18,9 +18,20 @@ code {
 
 .mainPageButtons {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
+  padding: 20rem;
+  width: 50%;
 }
 
+
+.autoButton{
+  display: flex;
+}
+
+
+@media only screen and (max-width: 20px){
+  body {
+    background-size: 30rem;
+    
+  }
+}
 

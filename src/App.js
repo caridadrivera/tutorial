@@ -20,11 +20,8 @@ export default function App() {
         <Route path='/' exact component={MainPage}/>
         <Route path='/auto' component={MainAutoPage}/>
         <Route path='/fire' component={MainFirePage}/>
-        <Route path='/life' component={MainLifePage}/>
-
-        
-        </Switch>
-       
+        <Route path='/life' component={MainLifePage}/>   
+        </Switch>   
       </div>
    </Router> 
     

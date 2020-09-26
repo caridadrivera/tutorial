@@ -5,9 +5,9 @@ export default function lifeButton(props){
 
     return (
         <Link to="/life">
-            <button className="lifeButton" onClick={props.handleLifeClick}>
+            <div className="lifeButton" onClick={props.handleLifeClick}>
                     LIFE / HEALTH
-            </button>
+            </div>
         </Link>
         
     )
