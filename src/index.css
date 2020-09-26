@@ -1,11 +1,8 @@
 body {
   margin: 0;
   height: 100vh;
-  background-image: url('./backgroundSF.jpg');
  
-  background-repeat: no-repeat;
-  
-  background-position: relative;
+ 
 
 }
 
@@ -18,20 +15,49 @@ code {
 
 .mainPageButtons {
   display: flex;
-  padding: 20rem;
+  padding: 15rem;
   width: 50%;
+  text-decoration: none;
 }
 
 
 .autoButton{
   display: flex;
+  flex-direction: row;
+  margin-right: 2rem;
+  font-size: 1.5rem;
+ 
+}
+
+.fireButton {
+  display: flex;
+  flex-direction: row;
+  margin-right: 2rem;
+  font-size: 1.5rem;
 }
 
 
-@media only screen and (max-width: 20px){
+.lifeButton {
+  display: flex;
+  flex-direction: row;
+  margin-right: 2rem;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+a span{
+  color: red;
+}
+
+
+/* @media only screen and (max-width: 20px){
   body {
     background-size: 30rem;
     
   }
-}
+} */
 

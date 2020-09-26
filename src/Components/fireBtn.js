@@ -5,7 +5,10 @@ export default function fireButton(props){
 
     return (
         <Link to="/fire"> 
-                Fire   
+            <span>
+               FIRE        
+            </span>
+            
         </Link>
         
     )

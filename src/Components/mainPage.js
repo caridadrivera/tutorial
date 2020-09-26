@@ -28,9 +28,14 @@ const handleLifeClick = () =>{
             <div className="autoButton">
                 <AutoButton handleClick={handleAutoClick}/>
             </div>
+        
+            <div className="fireButton">
+                <FireButton handleClick={handleFireClick}/>
+            </div>
+           <div className="lifeButton">
+               <LifeButton handleClick={handleLifeClick}/>
+           </div>
             
-            <FireButton handleClick={handleFireClick}/>
-            <LifeButton handleClick={handleLifeClick}/>
 
         </div>
       
