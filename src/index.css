@@ -23,16 +23,13 @@ code {
 
 .autoButton{
   display: flex;
-  flex-direction: row;
-  margin-right: 2rem;
+  margin: -5rem 8rem;
   font-size: 1.5rem;
- 
 }
 
 .fireButton {
   display: flex;
-  flex-direction: row;
-  margin-right: 2rem;
+  margin: 3rem -5rem;
   font-size: 1.5rem;
 }
 
@@ -40,7 +37,7 @@ code {
 .lifeButton {
   display: flex;
   flex-direction: row;
-  margin-right: 2rem;
+  margin: 3rem -12rem;
   font-size: 1.5rem;
 }
 
@@ -50,7 +47,7 @@ a {
 }
 
 a span{
-  color: red;
+  color: black;
 }
 
 

@@ -6,7 +6,7 @@ export default function lifeButton(props){
     return (
         <Link to="/life">
             <span>
-           LIFE&HEALTH
+           LIFE
            </span> 
           
         </Link>

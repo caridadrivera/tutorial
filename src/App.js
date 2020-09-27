@@ -15,6 +15,7 @@ export default function App() {
   
   return (
     <Router>
+     
       <div className="App">
         <Switch>
         <Route path='/' exact component={MainPage}/>
