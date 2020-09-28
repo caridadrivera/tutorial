@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  height: 100vh;
+  height: 50vh;
  
  
 
@@ -39,6 +39,12 @@ code {
   flex-direction: row;
   margin: 3rem -12rem;
   font-size: 1.5rem;
+}
+
+.autoPage{
+  background-color: blanchedalmond;
+  height: 100%;
+  width: 100%;
 }
 
 a {

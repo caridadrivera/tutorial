@@ -3,7 +3,7 @@ import React from 'react';
 export default function mainAutoPage(){
 
     return(
-        <div>
+        <div className="autoPage">
             AUTO PAGE
         </div>
     )
