@@ -1,13 +1,11 @@
-.App {
+.mainPage {
  display: flex;
- width: 80%;
- height: 80vh;
- margin: 10rem 15rem;
-
- padding-right: 4rem;
+ width: 100%;
+ height: 70vh;
+ margin: 5rem 5rem 0 20rem;
  background-image: url('./backgroundSF.jpg'); 
  background-repeat: no-repeat;
- background-position: center absolute ;
+ background-position: center absolute;
  background-size: 50rem;
  
 }

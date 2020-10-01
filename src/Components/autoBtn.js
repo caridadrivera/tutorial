@@ -9,7 +9,7 @@ export default function autoButton(props){
 
         
              <Link to='/auto'>
-              <span>
+              <span className="autoButton">
                   AUTO 
               </span>  
             </Link> 

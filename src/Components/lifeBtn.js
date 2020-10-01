@@ -5,7 +5,7 @@ export default function lifeButton(props){
 
     return (
         <Link to="/life">
-            <span>
+            <span className="lifeButton">
            LIFE
            </span> 
           
