@@ -24,8 +24,7 @@ const handleLifeClick = () =>{
     return (
 
       
-          <div className="mainPage">
-            
+          <div className="mainButtonContainer">
                 <AutoButton handleClick={handleAutoClick}/>
             
                 <FireButton handleClick={handleFireClick}/>
