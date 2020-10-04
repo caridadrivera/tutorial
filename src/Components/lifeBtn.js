@@ -5,9 +5,9 @@ export default function lifeButton(props){
 
     return (
         <Link to="/life">
-            <span className="lifeButton">
+            <div className="lifeButton" >
            LIFE
-           </span> 
+           </div> 
           
         </Link>
         

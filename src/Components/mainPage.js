@@ -28,8 +28,6 @@ const handleLifeClick = () =>{
             
                 <AutoButton handleClick={handleAutoClick}/>
             
-        
- 
                 <FireButton handleClick={handleFireClick}/>
            
        
