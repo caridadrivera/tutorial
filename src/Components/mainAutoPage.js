@@ -7,10 +7,10 @@ export default function mainAutoPage(){
             <button className="autoQuoteBtn">
              Quoting
             </button>
-            <button className="fireQuoteBtn">
+            <button className="autoBillingBtn">
             Billing
             </button>
-            <button className="lifeQuoteBtn">
+            <button className="autoAccountBtn">
             Account Management
             </button>
         </div>
