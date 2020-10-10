@@ -15,15 +15,12 @@ export default function App() {
   
   return (
     <Router>
-     
-      
         <Switch>
         <Route path='/' exact component={MainPage}/>
         <Route path='/auto' component={MainAutoPage}/>
         <Route path='/fire' component={MainFirePage}/>
         <Route path='/life' component={MainLifePage}/>   
         </Switch>   
-      
    </Router> 
     
   );

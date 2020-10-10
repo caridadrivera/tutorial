@@ -6,7 +6,8 @@ body {
   background-image: url('./backgroundSF.jpg'); 
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 15rem;
+  background-color:rgb(193, 0, 0) ;
+  background-size: 50rem;
   border: 10px solid red;
 
 }
@@ -18,34 +19,32 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  
   position: absolute;
   justify-content: center;
   text-align: center;
- 
 
 }
 
 
 .autoButton{
   font-size: 1.5rem;
-  margin-top: 10rem;
+  margin-top: 30rem;
   margin-right: 10rem;
-  color: red;
+  color: white;
 }
 
 .fireButton {
   font-size: 1.5rem;
-  margin-top: 10rem;
+  margin-top: 30rem;
   margin-right: 12rem;
-  color:red; 
+  color:white; 
 }
 
 
 .lifeButton {
   font-size: 1.5rem;
-  margin-top: 10rem;
-  color: red;
+  margin-top: 30rem;
+  color: white;
  
 }
 

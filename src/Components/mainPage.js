@@ -8,29 +8,19 @@ import LifeButton from './lifeBtn';
 
 export default function mainPage(props){
 
-const handleAutoClick = () =>{
-   console.log('clicked Auto')
-}
 
-const handleFireClick = () =>{
-  console.log('im here');
-}
-
-const handleLifeClick = () =>{
-  console.log('im here');
-}
     
 
     return (
 
       
           <div className="mainButtonContainer">
-                <AutoButton handleClick={handleAutoClick}/>
+                <AutoButton />
             
-                <FireButton handleClick={handleFireClick}/>
+                <FireButton />
            
        
-               <LifeButton handleClick={handleLifeClick}/>
+               <LifeButton />
            
 
         </div>
