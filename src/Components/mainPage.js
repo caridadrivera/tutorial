@@ -13,15 +13,12 @@ export default function mainPage(props){
 
     return (
 
-      
           <div className="mainButtonContainer">
                 <AutoButton />
             
-                <FireButton />
-           
-       
+                 <FireButton />
+            
                <LifeButton />
-           
 
         </div>
       

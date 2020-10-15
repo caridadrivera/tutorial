@@ -67,6 +67,7 @@ a {
 .autoQuoteBtn {
   width: 10rem;
   height: 5rem;
+  margin-top: 15rem;
   margin-right: 6rem;
 
 }
@@ -75,12 +76,14 @@ a {
 .autoBillingBtn {
   width: 10rem;
   height: 5rem;
+  margin-top: 15rem;
   margin-right: 6rem;
 }
 
 .autoAccountBtn {
   width: 10rem;
   height: 5rem;
+  margin-top: 15rem;
   margin-right: 6rem;
 }
 
