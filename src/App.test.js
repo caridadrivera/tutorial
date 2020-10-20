@@ -12,8 +12,6 @@ import renderer from 'react-test-renderer';
 
 
 it('renders correctly', () =>{
-  const tree = renderer
-  .create(<MainPage/>)
-  .toJSON();
-  expect(tree).toMatchSnapShot()
+  const tree = renderer.create(<MainPage/>).toJSON();
+  expect(tree).toMatchSnapshot()
 })

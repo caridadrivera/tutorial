@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="mainButtonContainer"
+>
+  <div
+    className="autoButton"
+  >
+    <a
+      href="/auto"
+      onClick={[Function]}
+    >
+      AUTO
+    </a>
+  </div>
+  <div
+    className="fireButton"
+  >
+    <a
+      href="/fire"
+      onClick={[Function]}
+    >
+      FIRE
+    </a>
+  </div>
+  <div
+    className="lifeButton"
+  >
+    <a
+      href="/life"
+      onClick={[Function]}
+    >
+      LIFE
+    </a>
+  </div>
+</div>
+`;
