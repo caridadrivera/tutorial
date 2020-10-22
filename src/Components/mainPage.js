@@ -1,6 +1,6 @@
 import React from 'react';
 import '../index.css';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import { withRouter, Link, Route } from 'react-router-dom';
 import MainAutoPage from './mainAutoPage'
 // import AutoButton from './autoBtn';
@@ -15,27 +15,29 @@ export default function mainPage(props){
     
 
     return (
-        <Router>
-                <div className="mainButtonContainer">
-              
-              <div className="autoButton">
-                   <Link to="/auto">AUTO</Link>
-                   <Route path="/auto" component={MainAutoPage}> </Route>
-              </div>
-              <div className="fireButton">
-                  <Link to="/fire">FIRE</Link>
-              </div>
-              <div className="lifeButton">
-                  <Link to="/life">LIFE</Link>
-              </div>
-              
-           </div>
-        </Router>
-          
-      
+
         
+   
+      <div className="mainButtonContainer">   
+        <BrowserRouter>
+        <div className="autoButton">
+            <Link to="/auto">AUTO</Link>
+
+         </div>
+          <div className="fireButton">
+             <Link to="/fire">FIRE</Link>
+           </div>
+          <div className="lifeButton">
+              <Link to="/life">LIFE</Link>
+            </div>   
+        
+        </BrowserRouter>
+            
+    </div>
+      
+          
+    
      
     )
 }
 
-const ShowMainPageWithRouter = withRouter(mainPage)

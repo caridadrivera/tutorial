@@ -2,6 +2,9 @@ body {
   margin: 0;
   width: 100%;
   height: 100vh;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
   position: relative;
   background-image: url('./backgroundSF.jpg'); 
   background-repeat: no-repeat;
@@ -9,8 +12,8 @@ body {
   background-color:rgb(193, 0, 0) ;
   background-size: 50rem;
   border: 10px solid red;
-
 }
+
 
 
 .mainButtonContainer {
