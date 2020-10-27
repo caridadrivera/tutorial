@@ -1,12 +1,25 @@
 import React from 'react';
 
+function autoQuote(){
+    const quotingButton = document.querySelector('.autoQuoteBtn')
+    quotingButton.addEventListener('click', (e) => {
+    e.preventDefault();
+    console.log('I have been clicked.')
+   })
+
+}
+
 export default function mainAutoPage(){
-
+   
     
+       
+    return (
 
-    return(
+        
+        
         <div className="autoPage">
-            <button className="autoQuoteBtn">
+            
+            <button autoQuote={() => {autoQuote()}} className="autoQuoteBtn">
              Quoting
             </button>
             <button className="autoBillingBtn">
@@ -17,5 +30,8 @@ export default function mainAutoPage(){
             </button>
         </div>
     )
+
+
+    
 }
 

@@ -13,22 +13,20 @@ import MainLifePage from './Components/mainLifePage';
 export default function App() {
  
   
+  
   return (
     
-<Router>
-  <Route exact path="/" component={MainPage}></Route>
-  <Route path="/auto" component={MainAutoPage}></Route>
-  <Route path="/fire" component={MainAutoPage}></Route>
-  <Route path="/life" component={MainAutoPage}></Route>
-
-</Router>
+      <Router>
+          <Switch>
+            <Route exact path="/" component={MainPage}></Route>
+          </Switch>
         
-
-
-   
-
-
-   
+          <Switch>
+            <Route path="/auto" component={MainAutoPage}></Route>
+          </Switch>
+          
+      </Router>
+        
     
   );
 }

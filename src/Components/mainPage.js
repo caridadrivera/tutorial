@@ -12,14 +12,16 @@ import MainAutoPage from './mainAutoPage'
 export default function mainPage(props){
 
 
+ 
+
     
 
-    return (
+ return (
 
-        
-   
-      <div className="mainButtonContainer">   
-        <BrowserRouter>
+
+
+<div className="mainButtonContainer">   
+    
         <div className="autoButton">
             <Link to="/auto">AUTO</Link>
 
@@ -31,10 +33,9 @@ export default function mainPage(props){
               <Link to="/life">LIFE</Link>
             </div>   
         
-        </BrowserRouter>
-            
+          
     </div>
-      
+    
           
     
      
