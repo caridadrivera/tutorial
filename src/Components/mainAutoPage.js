@@ -37,7 +37,7 @@ export default class MainAutoPage extends Component {
           
     
             <div className="autoPage">  
-                <button onClick={this.getAutoQuote} className="autoQuoteBtn">
+                <button className="autoQuoteBtn">
                 {autoQuote}    
                 </button>
 
