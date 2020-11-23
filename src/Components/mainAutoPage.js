@@ -2,29 +2,39 @@ import React, {Component} from 'react';
 
 
 
-
-
 export default class MainAutoPage extends Component {
 
+
+    state = {
+        buttonIsShowing: true
+    }
+
     
-     getAutoQuote = () =>{
-        const quotingButton = document.querySelector('.autoQuoteBtn')
-        quotingButton.addEventListener('click', (e) => {
-        e.preventDefault();
-        console.log('I have been clicked.')
-       })
-    };
+    
+    //  getAutoQuote = () =>{
+    //     const quotingButton = document.querySelector('.autoQuoteBtn')
+    //     quotingButton.addEventListener('click', (e) => {
+    //     e.preventDefault();
+        
+    //    })
+    // };
+    
       
     render() {
         const autoQuote = 'Quoting';
         const autoBilling = 'Billing';
-        const autoAccountMngmt = 'Account Management';
+        const autoAccountMngmt = 'Policy Docs';
+        const discounts = 'Discounts';
+        const changes = 'Changes';
 
 
 
        
        
         return (
+
+
+          
     
             <div className="autoPage">  
                 <button onClick={this.getAutoQuote} className="autoQuoteBtn">
@@ -36,8 +46,20 @@ export default class MainAutoPage extends Component {
                 </button>
 
                 <button className="autoAccountBtn">
-                    {autoAccountMngmt}
+                {autoAccountMngmt}
                 </button>
+
+
+                <button className="discounts">
+                {discounts}    
+                </button>
+
+                <button className="changes">
+                {changes}
+                </button>
+
+
+
             </div>
                 )
 

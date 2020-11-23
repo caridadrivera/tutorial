@@ -12,8 +12,6 @@ import MainAutoPage from './mainAutoPage'
 export default function mainPage(props){
 
 
- 
-
     
 
  return (
@@ -24,14 +22,14 @@ export default function mainPage(props){
     
         <div className="autoButton">
             <Link to="/auto">AUTO</Link>
-
          </div>
           <div className="fireButton">
              <Link to="/fire">FIRE</Link>
            </div>
           <div className="lifeButton">
               <Link to="/life">LIFE</Link>
-            </div>   
+          </div>   
+        
         
           
     </div>
