@@ -9,6 +9,8 @@ import MainPage from './Components/mainPage';
 import MainAutoPage from './Components/mainAutoPage';
 import MainFirePage from './Components/mainFirePage';
 import MainLifePage from './Components/mainLifePage';
+import AutoQuotePage from './Components/autoQuotePage'
+
 
 export default function App() {
  
@@ -24,6 +26,11 @@ export default function App() {
           <Switch>
             <Route path="/auto" component={MainAutoPage}></Route>
           </Switch>
+
+          <Switch>
+            <Route path="/autoPage" component={AutoQuotePage}></Route>
+          </Switch>
+
           
       </Router>
         

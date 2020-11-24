@@ -1,8 +1,12 @@
 body {
   margin: 0;
+
+}
+
+
+.main {
   width: 100%;
   height: 100vh;
-  
   position: relative;
   background-image: url('./backgroundSF.jpg'); 
   background-repeat: no-repeat;
@@ -11,7 +15,6 @@ body {
   background-size: 50rem;
   border: 10px solid red;
 }
-
 
 
 .mainButtonContainer {
@@ -24,6 +27,10 @@ body {
   justify-content: center;
   text-align: center;
 
+}
+
+.mainButtonContainer a {
+  color: white;
 }
 
 
@@ -49,26 +56,28 @@ body {
 }
 
 .autoPage{
-  background-color: blanchedalmond;
-  height: 100vh;
+  background-color: white;
   width: 100%; 
   position: absolute;
-  justify-content: center;
-  text-align: center;
-
+  padding-top: 20rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
-
 
 a {
   text-decoration: none;
-  color: white;
 }
 
-.autoQuoteBtn {
+
+
+
+
+/* MAIN AUTO PAGE*/
+ .autoQuoteBtn {
   width: 10rem;
   height: 5rem;
-  margin-top: 15rem;
-  margin-right: 6rem;
+
 
 }
 
@@ -76,29 +85,53 @@ a {
 .autoBillingBtn {
   width: 10rem;
   height: 5rem;
-  margin-top: 15rem;
-  margin-right: 6rem;
+
 }
 
 .autoAccountBtn {
   width: 10rem;
   height: 5rem;
-  margin-top: 15rem;
-  margin-right: 6rem;
+
 }
 
 
 .discounts {
   width: 10rem;
   height: 5rem;
-  margin-top: 15rem;
-  margin-right: 6rem;
+
 }
 
 
 .changes {
   width: 10rem;
   height: 5rem;
-  margin-top: 15rem;
-  margin-right: 6rem;
+
+}
+
+
+.coverages {
+  width: 10rem;
+  height: 5rem;
+
+}
+
+/* AUTO QUOTING PAGE*/
+
+.autoQuotesPageContainer {
+  display: flex;
+  flex-direction: center;
+  justify-content: space-evenly;
+  padding-top: 20rem;
+}
+
+
+
+.autoNew {
+  width: 10rem;
+  height: 5rem;
+}
+
+.autoExisting{
+  width: 10rem;
+  height: 5rem;
 }
