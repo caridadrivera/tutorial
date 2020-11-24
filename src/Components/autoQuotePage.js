@@ -1,18 +1,68 @@
-import React from 'react'
+import React, {Component} from 'react'
 
 
-export default function AutoQuotesPage(){
+export default class AutoQuotesPage extends Component{
+    constructor(){
+        super();
 
-    return (
-        <div className="autoQuotesPageContainer">
-            
-            <button className="autoNew">
-                New Business
-            </button>
-            <button className="autoExisting">
-                Existing Business
-            </button>
+        this.state = {
+            showMenu: false
+        }
 
-        </div>
-    )
+        this.showMenu = this.showMenu.bind(this);
+    this.closeMenu = this.closeMenu.bind(this);
+    }
+
+    showMenu(event){
+        event.preventDefault();
+        this.setState({showMenu: true} , () => {
+            document.addEventListener('click', this.closeMenu)
+        })
+    }
+
+    closeMenu() {
+        this.setState({ showMenu: false }, () => {
+          document.removeEventListener('click', this.closeMenu);
+        });
+      }
+
+    render() {
+        return (
+            <div className="autoQuotesPageContainer">
+                <div>
+                    <button className="autoNew" onClick={this.showMenu}>
+                    New Business
+                </button>
+
+                {
+                    this.state.showMenu ? (
+                        <div className="menu">
+                        <li> Raw New Business</li>
+                        <li> State to State</li>
+        
+                    </div>
+                    ) : (
+                        null
+                    )
+                }
+
+                </div>
+                
+
+
+
+
+                <button className="autoExisting">
+                    Existing Business
+                </button>
+
+              
+    
+               
+    
+            </div>
+        );
+    }
+
+    
 }

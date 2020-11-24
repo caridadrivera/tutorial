@@ -61,8 +61,9 @@ body {
   position: absolute;
   padding-top: 20rem;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
+
 }
 
 a {
@@ -75,58 +76,65 @@ a {
 
 /* MAIN AUTO PAGE*/
  .autoQuoteBtn {
-  width: 10rem;
-  height: 5rem;
-
+ 
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%;
 
 }
 
 
 .autoBillingBtn {
-  width: 10rem;
-  height: 5rem;
 
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%;
 }
 
 .autoAccountBtn {
-  width: 10rem;
-  height: 5rem;
-
+ 
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%;
 }
 
 
 .discounts {
-  width: 10rem;
-  height: 5rem;
-
+  
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%;
 }
 
 
 .changes {
-  width: 10rem;
-  height: 5rem;
-
+  
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%;
 }
 
 
 .coverages {
-  width: 10rem;
-  height: 5rem;
-
+ 
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%;
 }
 
 /* AUTO QUOTING PAGE*/
 
 .autoQuotesPageContainer {
   display: flex;
-  flex-direction: center;
   justify-content: space-evenly;
   padding-top: 20rem;
+  
 }
 
 
 
 .autoNew {
+  flex-grow: 1;
   width: 10rem;
   height: 5rem;
 }
